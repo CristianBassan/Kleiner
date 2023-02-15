@@ -24,7 +24,7 @@ html {
 body {
     margin: 0;
     line-height: inherit
-}
+}|
 
 hr {
     height: 0;
@@ -90,6 +90,12 @@ table {
     border-color: inherit;
     border-collapse: collapse
 }
+
+table, th, td {
+/*     border: 1px solid; */
+    text-align: CENTER;
+    padding-top: 50px;
+  }
 
 button,
 input,
